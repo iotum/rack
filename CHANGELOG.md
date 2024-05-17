@@ -4,7 +4,11 @@ All notable changes to this project will be documented in this file. For info on
 
 ## Unreleased
 
-## [2.2.9] - 2023-03-21
+## [2.2.9.1] - 2024-05-16
+
+- Fix possible thread safety issue in Rack::Session::Pool ([#1620](https://github.com/rack/rack/pull/1620))
+
+## [2.2.9] - 2024-03-21
 
 - Return empty when parsing a multi-part POST with only one end delimiter. ([#2104](https://github.com/rack/rack/pull/2104), [@alpaca-tc])
 
